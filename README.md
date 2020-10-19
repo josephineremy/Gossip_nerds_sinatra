@@ -11,6 +11,6 @@ Bienvenue dans la première page web codée en Ruby par Joséphine. Sur celle-ci
 Il y a bien évidemment des améliorations de design. J'avoue ne pas avoir passé beaucoup de temps à mettre en forme la page Gossip Nerds. J'ai aussi abandonné quand il fallut mettre des commentaires sur les gossips...
 
 ## Instructions
-$ bundle install
-$ shotgun -p 4567
+$ bundle install <br/>
+$ shotgun -p 4567 <br/>
 Copier-coller http://localhost:4567/ dans votre barre de recherche et laissez-vous guider.
