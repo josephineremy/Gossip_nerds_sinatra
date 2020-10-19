@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>THP Gossip nerds</title>
+  </head>
+  <body>
+    <h1>Bienvenue dans l'application Gossip Nerds, n'hésite pas à rajouter tes ragots !! </h1>
+    <br/><h2>Voilà tous les potins récoltés avant que tu arrives:</h2><br/>
+
+<% gossips.each_with_index do |gossip, index| %>
+        <p>
+          <%= gossip.author %><br/>
+          <%= gossip.content %><br/>
+          <a href=<%="/gossips/#{index}/"%>>Rends-toi vers la page du potin n°<%= index%>!</a><br/>
+        </p>
+      <% end %>
+<br/><br/>
+<h3><a href="/gossips/new/"> Veux-tu créer un potin?</a></h3>
