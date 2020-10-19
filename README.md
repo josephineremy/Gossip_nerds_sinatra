@@ -1,4 +1,4 @@
-#Présentation
+#Présentation#
 Bienvenue dans la première page web codée en Ruby par Joséphine. Sur celle-ci, vous pourrez découvrir quelques ragots collectés avant que vous arriviez. Vous pourrez en modifier certains (via l'option "Rends-toi vers la page du potin" >> "Edite le potin") mais aussi en créer (depuis le lien en bas de la page d'accueil "Veux-tu créer un potin?")
 
 #Les pages à explorer
